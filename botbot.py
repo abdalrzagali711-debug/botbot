@@ -78,6 +78,7 @@ def main():
     print("🚀 البوت يعمل والأزرار مفعلة...")
     application.run_polling(drop_pending_updates=True)
 
-if name == 'main':
+if __name__ == '__main__':
     main()
+
 
