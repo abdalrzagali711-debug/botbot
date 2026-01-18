@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 from pymongo import MongoClient
 
 # --- [ الإعدادات ] ---
-TOKEN = "8149138526:AAHphePWqz3WdDM2NK16utIb0k-cJDK0iL4" 
+TOKEN = "8568448385:AAEx6zdVrodR0MS7FlXlCvPFU8momMg94l4" 
 MONGO_URL = "mongodb+srv://abdalrzagDB:10010207966##@cluster0.fighoyv.mongodb.net/?retryWrites=true&w=majority"
 ADMIN_ID = 5524416062 # ضع الآيدي الخاص بك هنا
 
@@ -80,3 +80,4 @@ def main():
 
 if name == 'main':
     main()
+
